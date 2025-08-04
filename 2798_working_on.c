@@ -13,7 +13,7 @@ int main()
     for (int i = 0; i < n; i++) {
         scanf("%d", &card[i]);
     }
-    for (int i = 1; i <= n / 2 + n % 2; i++) {
+    for (int i = 1; i <= n - 2; i++) {
         for (int j = i + 1; j <= n - 1; j++) {
             for (int k = j + 1; j <= n; j++) {
       
